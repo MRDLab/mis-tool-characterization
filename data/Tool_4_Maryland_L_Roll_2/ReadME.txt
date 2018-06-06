@@ -1,0 +1,1 @@
+This is a roll of -45 degrees (i.e. 45 degrees on the outer ring of the protractor)

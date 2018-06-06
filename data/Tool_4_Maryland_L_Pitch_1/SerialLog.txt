@@ -1,0 +1,210 @@
+Please press 's' to begin data collection:
+Please press 'c' to display encoder values:
+
+Found the Left Spindle Index Pulse!
+Found the Maxon Index Pulse!
+Found the EE Index Pulse!
+Averaging EE torque don't touch it
+The average end effector torque was 231.35
+SD Card Initilization was successful!
+Finding End Effector Index Pulse
+Found Index Pulse
+Finding Left Spindle Index Pulse
+Found Index Pulse
+Moving to parallel offset to calibrate torque sensors
+OverLim
+Moving to center position
+Now collectinig data
+Sanity Check: -257.00, 190.00, -0.6889
+Sanity Check: -679.00, 1868.00, 0.6377
+Sanity Check: -525.00, -1690.00, -0.6792
+Sanity Check: -681.00, 1880.00, 0.6353
+Sanity Check: -527.00, -1694.00, -0.6792
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.40
+Now Centering
+Centered and ready to collect run 0, 0, 1, 6.25%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1273.00, 2760.00, 0.7405
+Sanity Check: -1143.00, -1158.00, -0.6959
+Sanity Check: -1283.00, 2888.00, 0.7443
+Sanity Check: -1141.00, -1196.00, -0.6953
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.60
+Now Centering
+Centered and ready to collect run 0, 0, 2, 12.50%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1841.00, 3596.00, 0.8385
+Sanity Check: -1729.00, -702.00, -0.7136
+Sanity Check: -1841.00, 3574.00, 0.8314
+Sanity Check: -1719.00, -728.00, -0.7130
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.80
+Now Centering
+Centered and ready to collect run 0, 0, 3, 18.75%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -2365.00, 4360.00, 0.9336
+Sanity Check: -2301.00, -266.00, -0.7303
+Sanity Check: -2377.00, 4320.00, 0.9225
+Sanity Check: -2289.00, -270.00, -0.7310
+Finished, Closing File
+Interrupts are turned off!
+Finished This Frequency
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.20
+Now Centering
+Centered and ready to collect run 0, 1, 0, 25.00%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -713.00, 1872.00, 0.7008
+Sanity Check: -535.00, -1634.00, -0.6846
+Sanity Check: -707.00, 1902.00, 0.7063
+Sanity Check: -531.00, -1634.00, -0.6852
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.40
+Now Centering
+Centered and ready to collect run 0, 1, 1, 31.25%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1303.00, 2722.00, 0.8112
+Sanity Check: -1145.00, -1100.00, -0.7021
+Sanity Check: -1305.00, 2778.00, 0.8112
+Sanity Check: -1131.00, -1092.00, -0.7021
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.60
+Now Centering
+Centered and ready to collect run 0, 1, 2, 37.50%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1845.00, 3642.00, 0.9218
+Sanity Check: -1731.00, -630.00, -0.7185
+Sanity Check: -1851.00, 3682.00, 0.9106
+Sanity Check: -1727.00, -638.00, -0.7185
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.80
+Now Centering
+Centered and ready to collect run 0, 1, 3, 43.75%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -2385.00, 4482.00, 1.0418
+Sanity Check: -2317.00, -196.00, -0.7347
+Sanity Check: -2379.00, 4410.00, 1.0123
+Sanity Check: -2309.00, -218.00, -0.7349
+Finished, Closing File
+Interrupts are turned off!
+Finished This Frequency
+Finished, Closing File
+Interrupts are turned off!
+Finished This Yaw Angle
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.20
+Now Centering
+OverLim
+Centered and ready to collect run 1, 0, 0, 50.00%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -773.00, 2088.00, -0.1505
+Sanity Check: -533.00, -1138.00, -1.0260
+Sanity Check: -763.00, 2082.00, -0.1525
+Sanity Check: -527.00, -1146.00, -1.0260
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.40
+Now Centering
+Centered and ready to collect run 1, 0, 1, 56.25%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1359.00, 3038.00, -0.1253
+Sanity Check: -1139.00, -678.00, -1.0804
+Sanity Check: -1371.00, 3102.00, -0.1233
+Sanity Check: -1145.00, -664.00, -1.0802
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.60
+Now Centering
+Centered and ready to collect run 1, 0, 2, 62.50%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1979.00, 3926.00, -0.0981
+Sanity Check: -1747.00, -214.00, -1.1297
+Sanity Check: -1997.00, 4008.00, -0.0971
+Sanity Check: -1755.00, -222.00, -1.1300
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.80
+Now Centering
+Centered and ready to collect run 1, 0, 3, 68.75%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -2589.00, 5006.00, -0.0677
+Sanity Check: -2349.00, 156.00, -1.1773
+Sanity Check: -2577.00, 4946.00, -0.0696
+Sanity Check: -2339.00, 102.00, -1.1749
+Finished, Closing File
+Interrupts are turned off!
+Finished This Frequency
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.20
+Now Centering
+Centered and ready to collect run 1, 1, 0, 75.00%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -765.00, 2120.00, -0.1462
+Sanity Check: -549.00, -1100.00, -1.0362
+Sanity Check: -761.00, 2108.00, -0.1455
+Sanity Check: -533.00, -1100.00, -1.0335
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.40
+Now Centering
+Centered and ready to collect run 1, 1, 1, 81.25%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1361.00, 3126.00, -0.1172
+Sanity Check: -1149.00, -650.00, -1.0993
+Sanity Check: -1373.00, 3130.00, -0.1167
+Sanity Check: -1127.00, -666.00, -1.1051
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.60
+Now Centering
+Centered and ready to collect run 1, 1, 2, 87.50%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -1979.00, 3980.00, -0.0895
+Sanity Check: -1751.00, -230.00, -1.1512
+Sanity Check: -1983.00, 4080.00, -0.0864
+Sanity Check: -1749.00, -272.00, -1.1516
+Finished, Closing File
+Interrupts are turned off!
+The new torque value is: 0.80
+Now Centering
+Centered and ready to collect run 1, 1, 3, 93.75%
+Incrementing torque to next value
+Now collectinig data
+Sanity Check: -2581.00, 4978.00, -0.0576
+Sanity Check: -2343.00, 154.00, -1.2059
+Sanity Check: -2595.00, 4998.00, -0.0597
+Sanity Check: -2375.00, 150.00, -1.2005
+Finished, Closing File
+Interrupts are turned off!
+Finished This Frequency
+Finished, Closing File
+Interrupts are turned off!
+Finished This Yaw Angle
+Finished, Closing File
+Interrupts are turned off!
+Finished Data Collection
+Goodbye!
