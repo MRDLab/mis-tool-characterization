@@ -70,13 +70,35 @@ Full Neural Network Code
 
 In the interest of full disclosure, the full code used for the RA-L paper "Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools" has been provided in this repository as well. This code consists of two script files to train the neural networks (`train_roll.m` and `train_torque.m`) as well as one script to generate the figures and tables used in the paper (`plot_torque.m`). The actual neural nets used in the paper are provided in the `Neural_Nets` directory, and as such the `plot_torque` script can be run without training and it will use these networks.
 
-Note that at this point the code requres MATLAB, and requires the [Neural Network Toolbox](https://uk.mathworks.com/products/neural-network.html), which may not be included in all MATLAB licences. 
+Note that the code requres MATLAB, and training requires the [Neural Network Toolbox](https://uk.mathworks.com/products/neural-network.html), which may not be included in all MATLAB licences. Evaluating the networks (`plot_torque.m`) should be possible without the toolbox.
+
+Generating C++ Code
+-------------------
+Code is included to export the run-time part of the Neural Network to C++ code.  This function is only programmed to work with a narrow subset of NN objects, which are shown tested `test_manual_nn.m`. If you want to do more complicated NN's you will either have to extend this function, or switch to an automated Matlab->C++ tool. This exporting should be able to function without the Neural Network Toolbox.
 
 Publications
 ------------
 Please see the following papers for more details on how this dataset has been 
 created and used:
 
-John J. O'Neill, Trevor K. Stephens, and Timothy M. Kowalewski. Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools. IEEE Robotics and Automation Letters, [In Press](http://doi.org/10.1109/LRA.2018.2849862)
+ - John J. O'Neill, Trevor K. Stephens, and Timothy M. Kowalewski. Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools, in IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 3027-3034, Oct. 2018. \[[link](http://doi.org/10.1109/LRA.2018.2849862)\]
+ - Nathan J. Kong, Trevor K. Stephens, John J. O'Neill, and Timothy M. Kowalewski. Design of a Portable Dynamic Calibration Instrument for da Vinci Si Tools. In Design of Medical Devices Conference, pages V001T11A023-V001T11A023, Minneapolis, MN, 2017. American Society of Mechanical Engineers. \[[pdf](http://www.me.umn.edu/labs/mrd/pdfs/Kong2017DesignPortableDynamic.pdf)\]
 
-Nathan J. Kong, Trevor K. Stephens, John J. O'Neill, and Timothy M. Kowalewski. Design of a portable dynamic calibration instrument for davinci si tools. In Design of Medical Devices Conference, pages V001T11A023-V001T11A023, Minneapolis, MN, 2017. American Society of Mechanical Engineers. \[[pdf](http://www.me.umn.edu/labs/mrd/pdfs/Kong2017DesignPortableDynamic.pdf)\] 
+If you would like to cite this dataset in your own work, we would appreciate it if you could cite the 2018 RA-L paper:
+```
+@ARTICLE{8392722,
+author={J. J. O’Neill and T. K. Stephens and T. M. Kowalewski},
+journal={IEEE Robotics and Automation Letters},
+title={Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools},
+year={2018},
+volume={3},
+number={4},
+pages={3027-3034},
+doi={10.1109/LRA.2018.2849862},
+month={Oct},}
+```
+
+Feedback
+--------
+
+If you have any questions about the data or the code, please feel free to open an issue, or contact [@john-j-oneill](https://github.com/john-j-oneill) or [@trevor-k-stephens](https://github.com/trevor-k-stephens) directly and we will be happy to help.
