@@ -12,15 +12,20 @@
 %  are expected to be in the Neural_Nets folder, and were generated with  %
 %  train_roll.m or train_torque.m                                         %
 %                                                                         %
+%  This script should be able to function without the Neural Network      %
+%  Toolbox, but it is only programmed to work with a narrow subset of NN  %
+%  objects.                                                               %
+%                                                                         %
 %  Note that due to changes made late in the editing process, the tables  %
 %  generated are not formatted the same as those shown in the paper, and  %
 %  experiment numbers are wildly inconsistent.                            %
 %                                                                         %
 %% Set up a key
 [ key, conf ] = generateKey();
-% conf.save_figs=false; % Save figs defaults to true
+conf.save_figs=false; % Save figs defaults to true, which would export the figs as pdf's for the paper
 datasetIndex=key.M4L4; % This is the dataset we are using
 dims=[1:3,5,4];
+
 
 %% Load up both the raw datas and the neural nets
 load('Neural_Nets/Paper2_big_data.mat');
@@ -29,6 +34,13 @@ NN=LoadNNArray(datasetIndex,key.POS:key.BET,1:5);
 NN_RPY=LoadNNArray(4:5,key.POS:key.TRQ,1:5);
 mkdir('Figures');
 mkdir('Tables');
+
+%% This is an example of how you could export the NN for use in a real-time system. 
+%  The code should be simple enough to run on a microcontroller if desired.
+
+%  This is the NN using the backend torque, which should be the most
+%  univerally applicable one, as it contains no motor-specific attributes:
+generate_nn_cpp(NN{datasetIndex,key.TRQ,1}.net,'_trq','double',NN{datasetIndex,key.TRQ,1}.input(:,1));
 
 %% Compare the different torque estimation methods
 Table=cell(1,1);
@@ -193,7 +205,13 @@ for depVar=key.POS:key.TRQ
     kk=1;
     for jj=dims(1:num_dims)
         X=NN{datasetIndex,torque_dep,jj}.input;
-        torque_estimate = NN{datasetIndex,torque_dep,jj}.net(X);
+        
+        if exist('trainNetwork')>0
+            % We have the neural net toolbox, so we can use it
+            torque_estimate = NN{datasetIndex,torque_dep,jj}.net(X);
+        else
+            torque_estimate = sim_net_manual_array(NN{datasetIndex,torque_dep,jj}.net,X);
+        end
         input_data = NN{datasetIndex,depVar,torque_model}.input;
         input_data(3,:)=torque_estimate;
         [out_estimate,out_test] = validateNetwork(NN{datasetIndex,depVar,torque_model}.net,NN{datasetIndex,depVar,torque_model}.tr,input_data,NN{datasetIndex,depVar,torque_model}.target);
