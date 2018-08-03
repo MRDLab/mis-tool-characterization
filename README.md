@@ -81,13 +81,13 @@ Publications
 Please see the following papers for more details on how this dataset has been 
 created and used:
 
- - John J. O'Neill, Trevor K. Stephens, and Timothy M. Kowalewski. Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools, in IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 3027-3034, Oct. 2018. \[[link](http://doi.org/10.1109/LRA.2018.2849862)\]
+ - John J. O'Neill, Trevor K. Stephens, and Timothy M. Kowalewski. Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools, in IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 3027-3034, Oct. 2018. \[[pdf](http://www.me.umn.edu/labs/mrd/pdfs/ONeill2018StretchableFlexibleScalable.pdf)\]
  - Nathan J. Kong, Trevor K. Stephens, John J. O'Neill, and Timothy M. Kowalewski. Design of a Portable Dynamic Calibration Instrument for da Vinci Si Tools. In Design of Medical Devices Conference, pages V001T11A023-V001T11A023, Minneapolis, MN, 2017. American Society of Mechanical Engineers. \[[pdf](http://www.me.umn.edu/labs/mrd/pdfs/Kong2017DesignPortableDynamic.pdf)\]
 
 If you would like to cite this dataset in your own work, we would appreciate it if you could cite the 2018 RA-L paper:
 ```
 @ARTICLE{8392722,
-author={J. J. O’Neill and T. K. Stephens and T. M. Kowalewski},
+author={John J. O’Neill and Trevor K. Stephens and Timothy M. Kowalewski},
 journal={IEEE Robotics and Automation Letters},
 title={Evaluation of Torque Measurement Surrogates as Applied to Grip Torque and Jaw Angle Estimation of Robotic Surgical Tools},
 year={2018},
